@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>D1 Save + List Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="card">
+        <h1>Simple D1 Demo</h1>
+        <p class="sub">Enter text, click Save, it is stored in D1 and shown below.</p>
+
+        <div class="row">
+          <input id="textInput" type="text" placeholder="Type something..." maxlength="200" />
+          <button id="saveBtn">Save</button>
+        </div>
+
+        <p id="status" class="status" aria-live="polite"></p>
+
+        <ul id="list" class="list"></ul>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
